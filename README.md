@@ -28,12 +28,12 @@ class Product extends Model
 }
 ```
 
-####if you want to customize your code column
+#### if you want to customize your code column
 ```php
 static $codeColumn = 'code';
 ```
 
-####if you want to set prefix base on conditions
+#### if you want to set prefix base on conditions
 ```php
 static $codePrefix = [
         "RM" => [
