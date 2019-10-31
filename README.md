@@ -26,13 +26,14 @@ class Product extends Model
     static $codePrefix = 'PRO';
 }
 ```
+Example : PRO0000001
 
-#### if you want to customize your code column
+#### If you want to customize your code column
 ```php
 static $codeColumn = 'code';
 ```
 
-#### if you want to set prefix base on conditions
+#### If you want to set the prefix base on conditions
 ```php
 static $codePrefix = [
         "RM" => [
