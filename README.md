@@ -1,6 +1,6 @@
 # Code Generator for Laravel
 
-##Installation
+## Installation
 
 You can install the package via composer:
 
@@ -8,7 +8,7 @@ You can install the package via composer:
 composer require jeylabs/laravel-code-generator
 ```
 
-##Usage
+## Usage
 
 ```php
 
