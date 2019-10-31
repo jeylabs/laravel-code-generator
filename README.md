@@ -18,7 +18,6 @@ namespace App;
 
 use Jeylabs\CodeGenerator\Traits\Code;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Product extends Model
 {
