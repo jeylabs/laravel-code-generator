@@ -1,0 +1,24 @@
+{
+    "name": "jeylabs/laravel-code-generator",
+    "description": "Generate code for model",
+    "type": "library",
+    "homepage": "https://github.com/jeylabs/laravel-code-generator",
+    "authors": [
+        {
+            "name": "Ratheep",
+            "email": "ratheep.ceymplon@jeylabs.com.au",
+            "homepage": "https://jeylabs.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "^7.0",
+        "illuminate/database": "^5.1",
+        "illuminate/support": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jeylabs\\CodeGenerator\\": "src"
+        }
+    }
+}
